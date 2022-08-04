@@ -1,0 +1,82 @@
+ <div class="btn btn-success" *ngIf="this.isButtonVisible" (click)="this.isButtonVisible = false">
+  <button class="btn btn-success" (click)="getPizzaList()">Get Pizza List</button>
+
+  </div><br><br>
+<table border="1" [hidden]="!Issubmitted" class="table table-striped">
+  <thead>
+    <th>Pizza Id</th>
+    <th>Pizza Name</th>
+    <th>Pizza Type</th>
+
+    <th>Pizza Description</th>
+    <th>Pizza Cost</th>
+    <th>Pizza Cost After Coupon</th>
+    <th colspan="2">Actions </th>
+
+
+    
+  
+  </thead>
+  <tbody>
+    <tr *ngFor="let pizza of pizzas" >
+  <td>{{pizza.pizzaId}}</td>
+  <td>{{pizza.pizzaName}}</td>
+  <td>{{pizza.pizzaType}}</td>
+
+  <td>{{pizza.pizzaDescription}}</td>
+  <td>{{pizza.pizzaCost}}</td>
+  <td>{{pizza.pizzaCostAfterCoupon}}</td>
+
+  <td> <button class="btn btn-warning" (click)="DeletePizza(pizza.pizzaId)">Delete</button></td>
+  <td> <button  class="btn btn-primary" (click)="EditPizza(pizza.pizzaId)">  Edit  </button></td>
+  </tr>
+  </tbody>
+
+  </table>
+  <div class="btn btn-info"*ngIf="this.isShow" (click)="this.isShow = true">
+    <button type="button" class="btn btn-info" (click)="back()">Back</button> &nbsp; &nbsp;
+  
+    </div><br><br>
+
+    <app-commonmodel [(visible)]="showDialog1" title="Update Pizza" (onClose)="closePopup()">
+      <form>
+        <div class="form-group">
+          Pizza Name:
+          <input type="text" class="form-control"   name="pName" [(ngModel)]="pName" >
+  
+        </div><br>
+        <div class="form-group">
+          Pizza Type:
+          <input type="text" class="form-control" name="pType"
+          [(ngModel)]="pType" >
+  
+        </div><br>
+        <div class="form-group">
+          Pizza Description:
+          <input type="text" class="form-control" name="pDescription"
+          [(ngModel)]="pDescription" >
+  
+        </div><br>
+        <div class="form-group">
+          Pizza Cost:
+          <input type="text" class="form-control"  name="pCost"
+          [(ngModel)]="pCost" >
+  
+        </div><br>
+        <div class="form-group">
+          Pizza Cost After Coupon:
+          <input type="text" class="form-control" name="PcostAfterCoupon"
+          [(ngModel)]="PcostAfterCoupon" >
+  
+        </div><br>
+        
+       
+        <button type="button" (click)="updatePizza(pizza.pizzaId)" class="btn btn-info btn-block btn-round">Update Pizza</button>
+      </form>
+    <div class="modal-body">
+      <div class="form-outline">
+  
+    </div>
+    </div>
+  
+      </app-commonmodel>

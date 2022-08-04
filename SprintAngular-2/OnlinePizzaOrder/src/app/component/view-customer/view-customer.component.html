@@ -1,0 +1,75 @@
+<div class="btn btn-success" *ngIf="this.isButtonVisible" (click)="this.isButtonVisible = false">
+  <button class="btn btn-success" (click)="getCustomersList()">Get Customer List</button>
+
+  </div><br><br>
+<table border="1" [hidden]="!Issubmitted" class="table table-striped">
+  <thead>
+    <th>Customer Id</th>
+    <th>Customer Name</th>
+    <th>Customer Email</th>
+    <th>Customer MobileNumber</th>
+    <th>Customer Address </th>
+    <th>User Id </th>
+    <th colspan="2">Actions </th>
+
+    
+  
+  </thead>
+  <tbody>
+    <tr *ngFor="let customer of customers" >
+  <td>{{customer.customerId}}</td>
+  <td>{{customer.customerName}}</td>
+  <td>{{customer.customerEmail}}</td>
+  <td>{{customer.customerMobile}}</td>
+  <td>{{customer.customerAddress}}</td>
+  <td>{{customer.user.userId}}</td>
+
+  <td> <button class="btn btn-warning" (click)="DeleteCustomer(customer.customerId)">Delete</button></td>
+  <td> <button  class="btn btn-primary" (click)="EditCustomer(customer.customerId)">  Edit  </button></td>
+  </tr>
+  </tbody>
+
+  </table>
+  <div class="btn btn-info"*ngIf="this.isShow" (click)="this.isShow = true">
+    <button type="button" class="btn btn-info" (click)="back()">Back</button> &nbsp; &nbsp;
+  
+    </div><br><br>
+
+  <app-commonmodel [(visible)]="showDialog1" title="Update Customer" (onClose)="closePopup()">
+    <form>
+      <div class="form-group">
+        Customer Name:
+        <input type="text" class="form-control"   name="custName" [(ngModel)]="custName" >
+
+      </div><br>
+      <div class="form-group">
+        Customer Email:
+        <input type="email" class="form-control" name="custEmail"
+        [(ngModel)]="custEmail" >
+
+      </div><br>
+      <div class="form-group">
+        Customer Mobile number:
+        <input type="text" class="form-control"  name="custMobile"
+        [(ngModel)]="custMobile" >
+
+      </div><br>
+      <div class="form-group">
+        Customer Address:
+        <input type="text" class="form-control" name="custAddress"
+        [(ngModel)]="custAddress" >
+
+      </div><br>
+      
+     
+      <button type="button" (click)="updateCustomer(customer.customerId)" class="btn btn-info btn-block btn-round">Update Customer</button>
+    </form>
+  <div class="modal-body">
+    <div class="form-outline">
+
+  </div>
+  </div>
+
+    </app-commonmodel>
+
+

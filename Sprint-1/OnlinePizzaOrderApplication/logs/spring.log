@@ -1,0 +1,681 @@
+2022-08-04 00:10:06 - HikariPool-15 - Thread starvation or clock leap detected (housekeeper delta=2h45m31s677ms999µs100ns).
+2022-08-04 07:37:36 - HikariPool-15 - Thread starvation or clock leap detected (housekeeper delta=7h27m35s662ms962µs).
+2022-08-04 08:40:08 - Starting OnlinePizzaOrderApplicationTests using Java 17.0.3 on INLEN8520044969 with PID 32224 (started by ssowkya in C:\Users\ssowkya\SprintProject\OnlinePizzaOrderApplication)
+2022-08-04 08:40:08 - The following profiles are active: test
+2022-08-04 08:40:09 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 08:40:09 - Finished Spring Data repository scanning in 68 ms. Found 6 JPA repository interfaces.
+2022-08-04 08:40:10 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 08:40:10 - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-08-04 08:40:10 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-04 08:40:11 - HikariPool-1 - Starting...
+2022-08-04 08:40:11 - HikariPool-1 - Start completed.
+2022-08-04 08:40:11 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-08-04 08:40:12 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 08:40:12 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 08:40:13 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-04 08:40:13 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-04 08:40:13 - Context refreshed
+2022-08-04 08:40:13 - Found 1 custom documentation plugin(s)
+2022-08-04 08:40:13 - Scanning for api listing references
+2022-08-04 08:40:14 - Generating unique operation named: deletePizzaUsingDELETE_1
+2022-08-04 08:40:14 - Generating unique operation named: updateStatusUsingPUT_1
+2022-08-04 08:40:14 - Generating unique operation named: getUserLoginUsingGET_1
+2022-08-04 08:40:14 - Started OnlinePizzaOrderApplicationTests in 5.612 seconds (JVM running for 6.541)
+2022-08-04 08:40:14 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 08:40:14 - HikariPool-1 - Shutdown initiated...
+2022-08-04 08:40:14 - HikariPool-1 - Shutdown completed.
+2022-08-04 08:41:41 - Starting OnlinePizzaOrderApplicationTests using Java 17.0.3 on INLEN8520044969 with PID 22744 (started by ssowkya in C:\Users\ssowkya\SprintProject\OnlinePizzaOrderApplication)
+2022-08-04 08:41:41 - No active profile set, falling back to default profiles: default
+2022-08-04 08:41:42 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 08:41:42 - Finished Spring Data repository scanning in 94 ms. Found 6 JPA repository interfaces.
+2022-08-04 08:41:43 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 08:41:43 - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-08-04 08:41:43 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-04 08:41:43 - HikariPool-1 - Starting...
+2022-08-04 08:41:44 - HikariPool-1 - Start completed.
+2022-08-04 08:41:44 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-08-04 08:41:44 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 08:41:44 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 08:41:45 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-04 08:41:46 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-04 08:41:47 - Context refreshed
+2022-08-04 08:41:47 - Found 1 custom documentation plugin(s)
+2022-08-04 08:41:47 - Scanning for api listing references
+2022-08-04 08:41:47 - Generating unique operation named: deletePizzaUsingDELETE_1
+2022-08-04 08:41:47 - Generating unique operation named: updateStatusUsingPUT_1
+2022-08-04 08:41:47 - Generating unique operation named: getUserLoginUsingGET_1
+2022-08-04 08:41:47 - Started OnlinePizzaOrderApplicationTests in 6.411 seconds (JVM running for 7.346)
+2022-08-04 08:41:47 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 08:41:47 - HikariPool-1 - Shutdown initiated...
+2022-08-04 08:41:47 - HikariPool-1 - Shutdown completed.
+2022-08-04 08:59:02 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 08:59:03 - HikariPool-15 - Shutdown initiated...
+2022-08-04 08:59:03 - HikariPool-15 - Shutdown completed.
+2022-08-04 08:59:03 - Starting OnlinePizzaOrderApplication using Java 17.0.3 on INLEN8520044969 with PID 18496 (C:\Users\ssowkya\SprintProject\OnlinePizzaOrderApplication\target\classes started by ssowkya in C:\Users\ssowkya\SprintProject\OnlinePizzaOrderApplication)
+2022-08-04 08:59:03 - No active profile set, falling back to default profiles: default
+2022-08-04 08:59:03 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 08:59:03 - Finished Spring Data repository scanning in 18 ms. Found 6 JPA repository interfaces.
+2022-08-04 08:59:03 - Tomcat initialized with port(s): 8156 (http)
+2022-08-04 08:59:03 - Starting service [Tomcat]
+2022-08-04 08:59:03 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2022-08-04 08:59:03 - Initializing Spring embedded WebApplicationContext
+2022-08-04 08:59:03 - Root WebApplicationContext: initialization completed in 268 ms
+2022-08-04 08:59:03 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 08:59:03 - HikariPool-16 - Starting...
+2022-08-04 08:59:03 - HikariPool-16 - Start completed.
+2022-08-04 08:59:03 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-08-04 08:59:03 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 08:59:03 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 08:59:03 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-04 08:59:03 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-04 08:59:03 - LiveReload server is running on port 35729
+2022-08-04 08:59:03 - Tomcat started on port(s): 8156 (http) with context path ''
+2022-08-04 08:59:03 - Context refreshed
+2022-08-04 08:59:03 - Found 1 custom documentation plugin(s)
+2022-08-04 08:59:03 - Scanning for api listing references
+2022-08-04 08:59:03 - Generating unique operation named: deletePizzaUsingDELETE_1
+2022-08-04 08:59:03 - Generating unique operation named: updateStatusUsingPUT_1
+2022-08-04 08:59:03 - Generating unique operation named: getUserLoginUsingGET_1
+2022-08-04 08:59:03 - Started OnlinePizzaOrderApplication in 0.825 seconds (JVM running for 51637.756)
+2022-08-04 08:59:03 - Condition evaluation unchanged
+2022-08-04 09:00:22 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 09:00:22 - HikariPool-16 - Shutdown initiated...
+2022-08-04 09:00:22 - HikariPool-16 - Shutdown completed.
+2022-08-04 09:00:22 - Starting OnlinePizzaOrderApplication using Java 17.0.3 on INLEN8520044969 with PID 18496 (C:\Users\ssowkya\SprintProject\OnlinePizzaOrderApplication\target\classes started by ssowkya in C:\Users\ssowkya\SprintProject\OnlinePizzaOrderApplication)
+2022-08-04 09:00:22 - No active profile set, falling back to default profiles: default
+2022-08-04 09:00:22 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 09:00:22 - Finished Spring Data repository scanning in 13 ms. Found 6 JPA repository interfaces.
+2022-08-04 09:00:22 - Tomcat initialized with port(s): 8156 (http)
+2022-08-04 09:00:22 - Starting service [Tomcat]
+2022-08-04 09:00:22 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2022-08-04 09:00:22 - Initializing Spring embedded WebApplicationContext
+2022-08-04 09:00:22 - Root WebApplicationContext: initialization completed in 203 ms
+2022-08-04 09:00:22 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 09:00:22 - HikariPool-17 - Starting...
+2022-08-04 09:00:22 - HikariPool-17 - Start completed.
+2022-08-04 09:00:22 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-08-04 09:00:22 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 09:00:22 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 09:00:23 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-04 09:00:23 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-04 09:00:23 - LiveReload server is running on port 35729
+2022-08-04 09:00:23 - Tomcat started on port(s): 8156 (http) with context path ''
+2022-08-04 09:00:23 - Context refreshed
+2022-08-04 09:00:23 - Found 1 custom documentation plugin(s)
+2022-08-04 09:00:23 - Scanning for api listing references
+2022-08-04 09:00:23 - Generating unique operation named: deletePizzaUsingDELETE_1
+2022-08-04 09:00:23 - Generating unique operation named: updateStatusUsingPUT_1
+2022-08-04 09:00:23 - Generating unique operation named: getUserLoginUsingGET_1
+2022-08-04 09:00:23 - Started OnlinePizzaOrderApplication in 0.717 seconds (JVM running for 51717.009)
+2022-08-04 09:00:23 - Condition evaluation unchanged
+2022-08-04 09:01:29 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 09:01:29 - HikariPool-17 - Shutdown initiated...
+2022-08-04 09:01:29 - HikariPool-17 - Shutdown completed.
+2022-08-04 09:01:29 - Starting OnlinePizzaOrderApplication using Java 17.0.3 on INLEN8520044969 with PID 18496 (C:\Users\ssowkya\SprintProject\OnlinePizzaOrderApplication\target\classes started by ssowkya in C:\Users\ssowkya\SprintProject\OnlinePizzaOrderApplication)
+2022-08-04 09:01:29 - No active profile set, falling back to default profiles: default
+2022-08-04 09:01:29 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 09:01:29 - Finished Spring Data repository scanning in 19 ms. Found 6 JPA repository interfaces.
+2022-08-04 09:01:29 - Tomcat initialized with port(s): 8156 (http)
+2022-08-04 09:01:29 - Starting service [Tomcat]
+2022-08-04 09:01:29 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2022-08-04 09:01:29 - Initializing Spring embedded WebApplicationContext
+2022-08-04 09:01:29 - Root WebApplicationContext: initialization completed in 205 ms
+2022-08-04 09:01:29 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 09:01:29 - HikariPool-18 - Starting...
+2022-08-04 09:01:29 - HikariPool-18 - Start completed.
+2022-08-04 09:01:29 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-08-04 09:01:29 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 09:01:29 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 09:01:30 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-04 09:01:30 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-04 09:01:30 - LiveReload server is running on port 35729
+2022-08-04 09:01:30 - Tomcat started on port(s): 8156 (http) with context path ''
+2022-08-04 09:01:30 - Context refreshed
+2022-08-04 09:01:30 - Found 1 custom documentation plugin(s)
+2022-08-04 09:01:30 - Scanning for api listing references
+2022-08-04 09:01:30 - Generating unique operation named: deletePizzaUsingDELETE_1
+2022-08-04 09:01:30 - Generating unique operation named: updateStatusUsingPUT_1
+2022-08-04 09:01:30 - Generating unique operation named: getUserLoginUsingGET_1
+2022-08-04 09:01:30 - Started OnlinePizzaOrderApplication in 0.721 seconds (JVM running for 51783.908)
+2022-08-04 09:01:30 - Condition evaluation unchanged
+2022-08-04 09:04:53 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 09:04:53 - HikariPool-18 - Shutdown initiated...
+2022-08-04 09:04:53 - HikariPool-18 - Shutdown completed.
+2022-08-04 09:04:54 - Starting OnlinePizzaOrderApplication using Java 17.0.3 on INLEN8520044969 with PID 18496 (C:\Users\ssowkya\SprintProject\OnlinePizzaOrderApplication\target\classes started by ssowkya in C:\Users\ssowkya\SprintProject\OnlinePizzaOrderApplication)
+2022-08-04 09:04:54 - No active profile set, falling back to default profiles: default
+2022-08-04 09:04:54 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 09:04:54 - Finished Spring Data repository scanning in 15 ms. Found 6 JPA repository interfaces.
+2022-08-04 09:04:54 - Tomcat initialized with port(s): 8156 (http)
+2022-08-04 09:04:54 - Starting service [Tomcat]
+2022-08-04 09:04:54 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2022-08-04 09:04:54 - Initializing Spring embedded WebApplicationContext
+2022-08-04 09:04:54 - Root WebApplicationContext: initialization completed in 214 ms
+2022-08-04 09:04:54 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 09:04:54 - HikariPool-19 - Starting...
+2022-08-04 09:04:54 - HikariPool-19 - Start completed.
+2022-08-04 09:04:54 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-08-04 09:04:54 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 09:04:54 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 09:04:54 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-04 09:04:54 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-04 09:04:54 - LiveReload server is running on port 35729
+2022-08-04 09:04:54 - Tomcat started on port(s): 8156 (http) with context path ''
+2022-08-04 09:04:54 - Context refreshed
+2022-08-04 09:04:54 - Found 1 custom documentation plugin(s)
+2022-08-04 09:04:54 - Scanning for api listing references
+2022-08-04 09:04:54 - Generating unique operation named: deletePizzaUsingDELETE_1
+2022-08-04 09:04:54 - Generating unique operation named: updateStatusUsingPUT_1
+2022-08-04 09:04:54 - Generating unique operation named: getUserLoginUsingGET_1
+2022-08-04 09:04:54 - Started OnlinePizzaOrderApplication in 0.822 seconds (JVM running for 51988.608)
+2022-08-04 09:04:54 - Condition evaluation unchanged
+2022-08-04 09:07:00 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 09:07:00 - HikariPool-19 - Shutdown initiated...
+2022-08-04 09:07:00 - HikariPool-19 - Shutdown completed.
+2022-08-04 09:07:00 - Starting OnlinePizzaOrderApplication using Java 17.0.3 on INLEN8520044969 with PID 18496 (C:\Users\ssowkya\SprintProject\OnlinePizzaOrderApplication\target\classes started by ssowkya in C:\Users\ssowkya\SprintProject\OnlinePizzaOrderApplication)
+2022-08-04 09:07:00 - No active profile set, falling back to default profiles: default
+2022-08-04 09:07:00 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 09:07:00 - Finished Spring Data repository scanning in 17 ms. Found 6 JPA repository interfaces.
+2022-08-04 09:07:00 - Tomcat initialized with port(s): 8156 (http)
+2022-08-04 09:07:00 - Starting service [Tomcat]
+2022-08-04 09:07:00 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2022-08-04 09:07:00 - Initializing Spring embedded WebApplicationContext
+2022-08-04 09:07:00 - Root WebApplicationContext: initialization completed in 246 ms
+2022-08-04 09:07:00 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 09:07:00 - HikariPool-20 - Starting...
+2022-08-04 09:07:01 - HikariPool-20 - Start completed.
+2022-08-04 09:07:01 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-08-04 09:07:01 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 09:07:01 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 09:07:01 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-04 09:07:01 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-04 09:07:01 - LiveReload server is running on port 35729
+2022-08-04 09:07:01 - Tomcat started on port(s): 8156 (http) with context path ''
+2022-08-04 09:07:01 - Context refreshed
+2022-08-04 09:07:01 - Found 1 custom documentation plugin(s)
+2022-08-04 09:07:01 - Scanning for api listing references
+2022-08-04 09:07:01 - Generating unique operation named: deletePizzaUsingDELETE_1
+2022-08-04 09:07:01 - Generating unique operation named: updateStatusUsingPUT_1
+2022-08-04 09:07:01 - Generating unique operation named: getUserLoginUsingGET_1
+2022-08-04 09:07:01 - Started OnlinePizzaOrderApplication in 0.909 seconds (JVM running for 52115.274)
+2022-08-04 09:07:01 - Condition evaluation unchanged
+2022-08-04 09:07:03 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 09:07:03 - HikariPool-20 - Shutdown initiated...
+2022-08-04 09:07:03 - HikariPool-20 - Shutdown completed.
+2022-08-04 09:07:04 - Starting OnlinePizzaOrderApplication using Java 17.0.3 on INLEN8520044969 with PID 18496 (C:\Users\ssowkya\SprintProject\OnlinePizzaOrderApplication\target\classes started by ssowkya in C:\Users\ssowkya\SprintProject\OnlinePizzaOrderApplication)
+2022-08-04 09:07:04 - No active profile set, falling back to default profiles: default
+2022-08-04 09:07:04 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 09:07:04 - Finished Spring Data repository scanning in 21 ms. Found 6 JPA repository interfaces.
+2022-08-04 09:07:04 - Tomcat initialized with port(s): 8156 (http)
+2022-08-04 09:07:04 - Starting service [Tomcat]
+2022-08-04 09:07:04 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2022-08-04 09:07:04 - Initializing Spring embedded WebApplicationContext
+2022-08-04 09:07:04 - Root WebApplicationContext: initialization completed in 298 ms
+2022-08-04 09:07:04 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 09:07:04 - HikariPool-21 - Starting...
+2022-08-04 09:07:04 - HikariPool-21 - Start completed.
+2022-08-04 09:07:04 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-08-04 09:07:04 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 09:07:04 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 09:07:04 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-04 09:07:04 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-04 09:07:04 - LiveReload server is running on port 35729
+2022-08-04 09:07:04 - Tomcat started on port(s): 8156 (http) with context path ''
+2022-08-04 09:07:04 - Context refreshed
+2022-08-04 09:07:04 - Found 1 custom documentation plugin(s)
+2022-08-04 09:07:04 - Scanning for api listing references
+2022-08-04 09:07:04 - Generating unique operation named: deletePizzaUsingDELETE_1
+2022-08-04 09:07:04 - Generating unique operation named: updateStatusUsingPUT_1
+2022-08-04 09:07:04 - Generating unique operation named: getUserLoginUsingGET_1
+2022-08-04 09:07:04 - Started OnlinePizzaOrderApplication in 0.907 seconds (JVM running for 52118.713)
+2022-08-04 09:07:04 - Condition evaluation unchanged
+2022-08-04 09:57:40 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-04 09:57:40 - Initializing Servlet 'dispatcherServlet'
+2022-08-04 09:57:40 - Completed initialization in 37 ms
+2022-08-04 09:57:41 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 09:58:01 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 09:58:18 - Fetched the Customer details
+2022-08-04 09:58:18 - Customer Details are Fetched
+2022-08-04 09:58:18 - 35 Soukya 7732075360 Soukya123@gmail.comKarimnagar
+2022-08-04 09:58:18 - 41 Seetasri 9959544169 Seeta@gmail.comWarangal
+2022-08-04 09:58:18 - 78 Soumya 7778675360 soumya@gmail.comHyderabad
+2022-08-04 09:58:21 - Fetched the Customer details based on id
+2022-08-04 09:58:24 - Fetched the Customer details based on id
+2022-08-04 09:58:30 - Updated the Customer details
+2022-08-04 09:58:30 - Customer Details Has Updated
+2022-08-04 09:58:32 - Fetched the Customer details
+2022-08-04 09:58:32 - Customer Details are Fetched
+2022-08-04 09:58:32 - 35 Soukya 7732075360 Soukya123@gmail.comKarimnagar
+2022-08-04 09:58:32 - 41 Seetasri 9959544169 Seeta@gmail.comWarangal
+2022-08-04 09:58:32 - 78 Soumya 7778675390 soumya@gmail.comHyderabad
+2022-08-04 09:58:48 - Fetched the Customer details
+2022-08-04 09:58:48 - Customer Details are Fetched
+2022-08-04 09:58:48 - 35 Soukya 7732075360 Soukya123@gmail.comKarimnagar
+2022-08-04 09:58:48 - 41 Seetasri 9959544169 Seeta@gmail.comWarangal
+2022-08-04 09:58:48 - 78 Soumya 7778675390 soumya@gmail.comHyderabad
+2022-08-04 09:59:34 - Customer is Created
+2022-08-04 09:59:34 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:00:12 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:00:33 - Fetched the Customer details
+2022-08-04 10:00:33 - Customer Details are Fetched
+2022-08-04 10:00:33 - 35 Soukya 7732075360 Soukya123@gmail.comKarimnagar
+2022-08-04 10:00:33 - 41 Seetasri 9959544169 Seeta@gmail.comWarangal
+2022-08-04 10:00:33 - 78 Soumya 7778675390 soumya@gmail.comHyderabad
+2022-08-04 10:00:33 - 92 Glory 7890654325 glory@gmail.comHyderabad
+2022-08-04 10:00:36 - Deleted the Customer details based on id
+2022-08-04 10:00:43 - Fetched the Customer details
+2022-08-04 10:00:43 - Customer Details are Fetched
+2022-08-04 10:00:43 - 35 Soukya 7732075360 Soukya123@gmail.comKarimnagar
+2022-08-04 10:00:43 - 41 Seetasri 9959544169 Seeta@gmail.comWarangal
+2022-08-04 10:00:43 - 78 Soumya 7778675390 soumya@gmail.comHyderabad
+2022-08-04 10:01:41 - Fetched the Customer details
+2022-08-04 10:01:41 - Customer Details are Fetched
+2022-08-04 10:01:41 - 35 Soukya 7732075360 Soukya123@gmail.comKarimnagar
+2022-08-04 10:01:41 - 41 Seetasri 9959544169 Seeta@gmail.comWarangal
+2022-08-04 10:01:41 - 78 Soumya 7778675390 soumya@gmail.comHyderabad
+2022-08-04 10:01:52 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction] with root cause
+javax.validation.ConstraintViolationException: Validation failed for classes [com.cg.pizzaorder.model.User] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='User Name Should not be null', propertyPath=userName, rootBeanClass=class com.cg.pizzaorder.model.User, messageTemplate='User Name Should not be null'}
+]
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.validate(BeanValidationEventListener.java:140) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.onPreInsert(BeanValidationEventListener.java:80) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.action.internal.EntityInsertAction.preInsert(EntityInsertAction.java:214) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:100) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[na:na]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:99) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1362) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:453) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3212) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2380) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:448) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562) ~[spring-orm-5.3.8.jar:5.3.8]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174) ~[spring-data-jpa-2.5.2.jar:2.5.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.8.jar:5.3.8]
+	at jdk.proxy24/jdk.proxy24.$Proxy362.save(Unknown Source) ~[na:na]
+	at com.cg.pizzaorder.dao.CustomerDao.addCustomer(CustomerDao.java:59) ~[classes/:na]
+	at com.cg.pizzaorder.controller.CustomerController.addCustomer(CustomerController.java:45) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.48.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.48.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+2022-08-04 10:06:26 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:06:29 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:06:32 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:07:10 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:08:38 - Invalid Creditinals
+2022-08-04 10:08:38 - Invalid Creditinals
+2022-08-04 10:09:10 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:09:17 - Fetched The Pizza Details
+2022-08-04 10:09:17 - 46 Chicken Pizza Crunch flavoured Chicken Non Veg 250.0150.0
+2022-08-04 10:09:17 - 68 Veg Pizza Crunch flavoured vegetables Veg 190.0100.0
+2022-08-04 10:09:17 - 76 Corn pizza Crunch flavoured corns Veg 150.0200.0
+2022-08-04 10:09:35 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:10:10 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:10:21 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:10:28 - Invalid Creditinals
+2022-08-04 10:10:28 - Invalid Creditinals
+2022-08-04 10:10:29 - Invalid Creditinals
+2022-08-04 10:10:29 - Invalid Creditinals
+2022-08-04 10:10:33 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:10:47 - Fetched The Pizza Details
+2022-08-04 10:10:47 - Fetched The Coupon
+2022-08-04 10:10:47 - 46 Chicken Pizza Crunch flavoured Chicken Non Veg 250.0150.0
+2022-08-04 10:10:47 - 68 Veg Pizza Crunch flavoured vegetables Veg 190.0100.0
+2022-08-04 10:10:47 - 76 Corn pizza Crunch flavoured corns Veg 150.0200.0
+2022-08-04 10:10:47 - 47 WELCOME 50% offer First User Offer 123
+2022-08-04 10:10:47 - 52 WEEKEND OFFER 30%Off WeekOff 1234
+2022-08-04 10:10:47 - 66 Friday Offers 30%Off WeekOff 1234567
+2022-08-04 10:10:47 - 64 Friday 60% Off WeekOffer 123456
+2022-08-04 10:11:00 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:11:06 - Fetched The Pizza Details
+2022-08-04 10:11:06 - Fetched The Coupon
+2022-08-04 10:11:06 - 46 Chicken Pizza Crunch flavoured Chicken Non Veg 250.0150.0
+2022-08-04 10:11:06 - 47 WELCOME 50% offer First User Offer 123
+2022-08-04 10:11:06 - 68 Veg Pizza Crunch flavoured vegetables Veg 190.0100.0
+2022-08-04 10:11:06 - 52 WEEKEND OFFER 30%Off WeekOff 1234
+2022-08-04 10:11:06 - 76 Corn pizza Crunch flavoured corns Veg 150.0200.0
+2022-08-04 10:11:06 - 66 Friday Offers 30%Off WeekOff 1234567
+2022-08-04 10:11:06 - 64 Friday 60% Off WeekOffer 123456
+2022-08-04 10:11:06 - Fetched the Customer details
+2022-08-04 10:11:06 - Customer Details are Fetched
+2022-08-04 10:11:06 - 35 Soukya 7732075360 Soukya123@gmail.comKarimnagar
+2022-08-04 10:11:06 - 41 Seetasri 9959544169 Seeta@gmail.comWarangal
+2022-08-04 10:11:06 - 78 Soumya 7778675390 soumya@gmail.comHyderabad
+2022-08-04 10:11:07 - Fetched Order Details
+2022-08-04 10:11:07 - 83 medium 2 2022-08-03 com.cg.pizzaorder.model.Pizza@39db2183com.cg.pizzaorder.model.Coupon@1cbd7281com.cg.pizzaorder.model.Pizza@39db2183phonepe
+2022-08-04 10:11:07 - 84 medium 3 2022-08-03 com.cg.pizzaorder.model.Pizza@1f6ac46acom.cg.pizzaorder.model.Coupon@1cbd7281com.cg.pizzaorder.model.Pizza@1f6ac46aphonepe
+2022-08-04 10:11:10 - Delted the PizzaOrder by Id
+2022-08-04 10:11:14 - Fetched The Coupon
+2022-08-04 10:11:14 - Fetched The Pizza Details
+2022-08-04 10:11:14 - 47 WELCOME 50% offer First User Offer 123
+2022-08-04 10:11:14 - Fetched the Customer details
+2022-08-04 10:11:14 - 52 WEEKEND OFFER 30%Off WeekOff 1234
+2022-08-04 10:11:14 - 66 Friday Offers 30%Off WeekOff 1234567
+2022-08-04 10:11:14 - 64 Friday 60% Off WeekOffer 123456
+2022-08-04 10:11:14 - 46 Chicken Pizza Crunch flavoured Chicken Non Veg 250.0150.0
+2022-08-04 10:11:14 - 68 Veg Pizza Crunch flavoured vegetables Veg 190.0100.0
+2022-08-04 10:11:14 - 76 Corn pizza Crunch flavoured corns Veg 150.0200.0
+2022-08-04 10:11:14 - Customer Details are Fetched
+2022-08-04 10:11:14 - 35 Soukya 7732075360 Soukya123@gmail.comKarimnagar
+2022-08-04 10:11:14 - 41 Seetasri 9959544169 Seeta@gmail.comWarangal
+2022-08-04 10:11:14 - 78 Soumya 7778675390 soumya@gmail.comHyderabad
+2022-08-04 10:11:17 - Fetched Order Details
+2022-08-04 10:11:17 - 83 medium 2 2022-08-03 com.cg.pizzaorder.model.Pizza@403fb7aecom.cg.pizzaorder.model.Coupon@251fb185com.cg.pizzaorder.model.Pizza@403fb7aephonepe
+2022-08-04 10:11:25 - Delted the PizzaOrder by Id
+2022-08-04 10:11:30 - Fetched The Coupon
+2022-08-04 10:11:30 - Fetched the Customer details
+2022-08-04 10:11:30 - Fetched The Pizza Details
+2022-08-04 10:11:30 - 47 WELCOME 50% offer First User Offer 123
+2022-08-04 10:11:30 - 52 WEEKEND OFFER 30%Off WeekOff 1234
+2022-08-04 10:11:30 - 66 Friday Offers 30%Off WeekOff 1234567
+2022-08-04 10:11:30 - 64 Friday 60% Off WeekOffer 123456
+2022-08-04 10:11:30 - 46 Chicken Pizza Crunch flavoured Chicken Non Veg 250.0150.0
+2022-08-04 10:11:30 - 68 Veg Pizza Crunch flavoured vegetables Veg 190.0100.0
+2022-08-04 10:11:30 - 76 Corn pizza Crunch flavoured corns Veg 150.0200.0
+2022-08-04 10:11:30 - Customer Details are Fetched
+2022-08-04 10:11:30 - 35 Soukya 7732075360 Soukya123@gmail.comKarimnagar
+2022-08-04 10:11:30 - 41 Seetasri 9959544169 Seeta@gmail.comWarangal
+2022-08-04 10:11:30 - 78 Soumya 7778675390 soumya@gmail.comHyderabad
+2022-08-04 10:11:32 - Fetched Order Details
+2022-08-04 10:12:31 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:12:39 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:13:50 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:14:40 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:15:02 - Invalid Creditinals
+2022-08-04 10:15:02 - Invalid Creditinals
+2022-08-04 10:15:11 - Fetched The Coupon
+2022-08-04 10:15:11 - 47 WELCOME 50% offer First User Offer 123
+2022-08-04 10:15:11 - 52 WEEKEND OFFER 30%Off WeekOff 1234
+2022-08-04 10:15:11 - 66 Friday Offers 30%Off WeekOff 1234567
+2022-08-04 10:15:11 - 64 Friday 60% Off WeekOffer 123456
+2022-08-04 10:15:26 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:15:40 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:15:46 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:16:42 - Invalid Creditinals
+2022-08-04 10:16:50 - Invalid Creditinals
+2022-08-04 10:16:50 - Invalid Creditinals
+2022-08-04 10:16:53 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:17:58 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:18:01 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:18:18 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:18:21 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:18:38 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:19:50 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:20:57 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:21:01 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 10:21:06 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 11:05:42 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 11:05:57 - Invalid Creditinals
+2022-08-04 11:05:58 - Invalid Creditinals
+2022-08-04 11:06:10 - Fetched the Customer details
+2022-08-04 11:06:10 - Customer Details are Fetched
+2022-08-04 11:06:10 - 35 Soukya 7732075360 Soukya123@gmail.comKarimnagar
+2022-08-04 11:06:10 - 41 Seetasri 9959544169 Seeta@gmail.comWarangal
+2022-08-04 11:06:10 - 78 Soumya 7778675390 soumya@gmail.comHyderabad
+2022-08-04 11:06:17 - Deleted the Customer details based on id
+2022-08-04 11:06:20 - Fetched the Customer details
+2022-08-04 11:06:20 - Customer Details are Fetched
+2022-08-04 11:06:20 - 35 Soukya 7732075360 Soukya123@gmail.comKarimnagar
+2022-08-04 11:06:20 - 41 Seetasri 9959544169 Seeta@gmail.comWarangal
+2022-08-04 11:06:24 - Fetched the Customer details based on id
+2022-08-04 11:06:39 - Updated the Customer details
+2022-08-04 11:06:39 - Customer Details Has Updated
+2022-08-04 11:06:41 - Fetched the Customer details
+2022-08-04 11:06:41 - Customer Details are Fetched
+2022-08-04 11:06:41 - 35 Soukya 7732075360 Soukya123@gmail.comKarimnagar
+2022-08-04 11:06:41 - 41 Seetasri 9123567891 Seeta@gmail.comWarangal
+2022-08-04 11:06:50 - Fetched The Coupon
+2022-08-04 11:06:50 - 47 WELCOME 50% offer First User Offer 123
+2022-08-04 11:06:50 - 52 WEEKEND OFFER 30%Off WeekOff 1234
+2022-08-04 11:06:50 - 66 Friday Offers 30%Off WeekOff 1234567
+2022-08-04 11:06:50 - 64 Friday 60% Off WeekOffer 123456
+2022-08-04 11:06:57 - Coupon Deleted successfully
+2022-08-04 11:06:57 - Deleted The Coupon Details based on Id
+2022-08-04 11:06:59 - Fetched The Coupon Details Based On Id
+2022-08-04 11:06:59 - Resolved [com.cg.pizzaorder.exception.NoSuchCouponException: Coupon does not exist]
+2022-08-04 11:07:16 - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.cg.pizzaorder.model.Coupon com.cg.pizzaorder.controller.CouponController.addCoupon(com.cg.pizzaorder.model.Coupon) throws com.cg.pizzaorder.exception.CouponAlreadyExists: [Field error in object 'coupon' on field 'couponName': rejected value [null]; codes [NotBlank.coupon.couponName,NotBlank.couponName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [coupon.couponName,couponName]; arguments []; default message [couponName]]; default message [Coupon Name Should not be null]] ]
+2022-08-04 11:08:27 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 11:08:42 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 11:14:27 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 11:14:39 - Fetched the Customer details
+2022-08-04 11:14:39 - Customer Details are Fetched
+2022-08-04 11:14:39 - 35 Soukya 7732075360 Soukya123@gmail.comKarimnagar
+2022-08-04 11:14:39 - 41 Seetasri 9123567891 Seeta@gmail.comWarangal
+2022-08-04 11:15:07 - Deleted the Customer details based on id
+2022-08-04 11:15:09 - Fetched the Customer details
+2022-08-04 11:15:09 - Customer Details are Fetched
+2022-08-04 11:15:09 - 35 Soukya 7732075360 Soukya123@gmail.comKarimnagar
+2022-08-04 11:15:11 - Fetched the Customer details based on id
+2022-08-04 11:15:24 - Updated the Customer details
+2022-08-04 11:15:24 - Customer Details Has Updated
+2022-08-04 11:15:26 - Fetched the Customer details
+2022-08-04 11:15:26 - Customer Details are Fetched
+2022-08-04 11:15:26 - 35 SaiRam 7732075360 Soukya123@gmail.comKarimnagar
+2022-08-04 11:15:37 - Deleted the Customer details based on id
+2022-08-04 11:15:39 - Fetched the Customer details
+2022-08-04 11:15:39 - Customer Details are Fetched
+2022-08-04 11:17:07 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 11:17:27 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 11:17:39 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 11:18:43 - Customer is Created
+2022-08-04 11:18:43 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 11:19:34 - Fetched The Pizza Details
+2022-08-04 11:19:34 - 46 Chicken Pizza Crunch flavoured Chicken Non Veg 250.0150.0
+2022-08-04 11:19:34 - 68 Veg Pizza Crunch flavoured vegetables Veg 190.0100.0
+2022-08-04 11:19:34 - 76 Corn pizza Crunch flavoured corns Veg 150.0200.0
+2022-08-04 11:20:48 - Fetched The Pizza Details Based On Id
+2022-08-04 11:21:13 - Updated The Pizza Details based on Cost
+2022-08-04 11:21:16 - Fetched The Pizza Details
+2022-08-04 11:21:16 - 46 Chicken Pizza Crunch flavoured Chicken Non Veg 250.0150.0
+2022-08-04 11:21:16 - 68 Veg Pizza Crunch flavoured vegetables Veg 190.0100.0
+2022-08-04 11:21:16 - 76 Corn pizza Crunch flavoured corns pieces Veg 150.0200.0
+2022-08-04 11:21:35 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 11:26:08 - Fetched The Coupon
+2022-08-04 11:26:08 - Fetched The Pizza Details
+2022-08-04 11:26:08 - 47 WELCOME 50% offer First User Offer 123
+2022-08-04 11:26:08 - 52 WEEKEND OFFER 30%Off WeekOff 1234
+2022-08-04 11:26:08 - 66 Friday Offers 30%Off WeekOff 1234567
+2022-08-04 11:26:08 - 46 Chicken Pizza Crunch flavoured Chicken Non Veg 250.0150.0
+2022-08-04 11:26:08 - 68 Veg Pizza Crunch flavoured vegetables Veg 190.0100.0
+2022-08-04 11:26:08 - 76 Corn pizza Crunch flavoured corns pieces Veg 150.0200.0
+2022-08-04 11:26:57 - PizzaOrder added successfully
+2022-08-04 11:26:57 - PizzaOrder is Created
+2022-08-04 11:27:19 - Fetched the Customer details
+2022-08-04 11:27:19 - Fetched The Coupon
+2022-08-04 11:27:19 - Fetched The Pizza Details
+2022-08-04 11:27:19 - 47 WELCOME 50% offer First User Offer 123
+2022-08-04 11:27:19 - Customer Details are Fetched
+2022-08-04 11:27:19 - 46 Chicken Pizza Crunch flavoured Chicken Non Veg 250.0150.0
+2022-08-04 11:27:19 - 96 Soumya 7732076815 soumya@gmail.comHyderabad
+2022-08-04 11:27:19 - 52 WEEKEND OFFER 30%Off WeekOff 1234
+2022-08-04 11:27:19 - 68 Veg Pizza Crunch flavoured vegetables Veg 190.0100.0
+2022-08-04 11:27:19 - 66 Friday Offers 30%Off WeekOff 1234567
+2022-08-04 11:27:19 - 76 Corn pizza Crunch flavoured corns pieces Veg 150.0200.0
+2022-08-04 11:27:21 - Fetched Order Details
+2022-08-04 11:27:21 - 98 medium 2 2022-08-04 com.cg.pizzaorder.model.Pizza@8e1f4c0com.cg.pizzaorder.model.Coupon@47f7eb8bcom.cg.pizzaorder.model.Pizza@8e1f4c0phonepe
+2022-08-04 11:27:29 - Fetched the PizzaOrder by Id
+2022-08-04 11:27:38 - Updated the PizzaOrder by Id
+2022-08-04 11:27:39 - Fetched The Pizza Details
+2022-08-04 11:27:39 - Fetched the Customer details
+2022-08-04 11:27:39 - Fetched The Coupon
+2022-08-04 11:27:39 - 46 Chicken Pizza Crunch flavoured Chicken Non Veg 250.0150.0
+2022-08-04 11:27:39 - 68 Veg Pizza Crunch flavoured vegetables Veg 190.0100.0
+2022-08-04 11:27:39 - 76 Corn pizza Crunch flavoured corns pieces Veg 150.0200.0
+2022-08-04 11:27:39 - Customer Details are Fetched
+2022-08-04 11:27:39 - 47 WELCOME 50% offer First User Offer 123
+2022-08-04 11:27:39 - 96 Soumya 7732076815 soumya@gmail.comHyderabad
+2022-08-04 11:27:39 - 52 WEEKEND OFFER 30%Off WeekOff 1234
+2022-08-04 11:27:39 - 66 Friday Offers 30%Off WeekOff 1234567
+2022-08-04 11:27:40 - Fetched Order Details
+2022-08-04 11:27:40 - 98 medium 2 2022-08-04 com.cg.pizzaorder.model.Pizza@446ecc6com.cg.pizzaorder.model.Coupon@2355394acom.cg.pizzaorder.model.Pizza@446ecc6phonepe
+2022-08-04 11:27:46 - Delted the PizzaOrder by Id
+2022-08-04 11:27:50 - Fetched The Pizza Details
+2022-08-04 11:27:50 - Fetched the Customer details
+2022-08-04 11:27:50 - Fetched The Coupon
+2022-08-04 11:27:50 - 46 Chicken Pizza Crunch flavoured Chicken Non Veg 250.0150.0
+2022-08-04 11:27:50 - 47 WELCOME 50% offer First User Offer 123
+2022-08-04 11:27:50 - 68 Veg Pizza Crunch flavoured vegetables Veg 190.0100.0
+2022-08-04 11:27:50 - 52 WEEKEND OFFER 30%Off WeekOff 1234
+2022-08-04 11:27:50 - 76 Corn pizza Crunch flavoured corns pieces Veg 150.0200.0
+2022-08-04 11:27:50 - 66 Friday Offers 30%Off WeekOff 1234567
+2022-08-04 11:27:50 - Customer Details are Fetched
+2022-08-04 11:27:50 - 96 Soumya 7732076815 soumya@gmail.comHyderabad
+2022-08-04 11:27:51 - Fetched Order Details
+2022-08-04 11:32:28 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 11:32:28 - HikariPool-21 - Shutdown initiated...
+2022-08-04 11:32:28 - HikariPool-21 - Shutdown completed.
+2022-08-04 11:32:28 - Starting OnlinePizzaOrderApplication using Java 17.0.3 on INLEN8520044969 with PID 18496 (C:\Users\ssowkya\SprintProject\OnlinePizzaOrderApplication\target\classes started by ssowkya in C:\Users\ssowkya\SprintProject\OnlinePizzaOrderApplication)
+2022-08-04 11:32:28 - No active profile set, falling back to default profiles: default
+2022-08-04 11:32:28 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 11:32:28 - Finished Spring Data repository scanning in 18 ms. Found 6 JPA repository interfaces.
+2022-08-04 11:32:28 - Tomcat initialized with port(s): 8156 (http)
+2022-08-04 11:32:28 - Starting service [Tomcat]
+2022-08-04 11:32:28 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2022-08-04 11:32:28 - Initializing Spring embedded WebApplicationContext
+2022-08-04 11:32:28 - Root WebApplicationContext: initialization completed in 270 ms
+2022-08-04 11:32:28 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 11:32:28 - HikariPool-22 - Starting...
+2022-08-04 11:32:28 - HikariPool-22 - Start completed.
+2022-08-04 11:32:28 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-08-04 11:32:28 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 11:32:28 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 11:32:29 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-04 11:32:29 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-04 11:32:29 - LiveReload server is running on port 35729
+2022-08-04 11:32:29 - Tomcat started on port(s): 8156 (http) with context path ''
+2022-08-04 11:32:29 - Context refreshed
+2022-08-04 11:32:29 - Found 1 custom documentation plugin(s)
+2022-08-04 11:32:29 - Scanning for api listing references
+2022-08-04 11:32:29 - Generating unique operation named: deletePizzaUsingDELETE_1
+2022-08-04 11:32:29 - Generating unique operation named: updateStatusUsingPUT_1
+2022-08-04 11:32:29 - Generating unique operation named: getUserLoginUsingGET_1
+2022-08-04 11:32:29 - Started OnlinePizzaOrderApplication in 0.785 seconds (JVM running for 60842.966)
+2022-08-04 11:32:29 - Condition evaluation unchanged
+2022-08-04 11:32:43 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-04 11:32:43 - Initializing Servlet 'dispatcherServlet'
+2022-08-04 11:32:43 - Completed initialization in 1 ms
+2022-08-04 11:32:43 - Fetched The Pizza Details
+2022-08-04 11:32:43 - Fetched The Coupon
+2022-08-04 11:32:43 - 47 WELCOME 50% offer First User Offer 123
+2022-08-04 11:32:43 - 46 Chicken Pizza Crunch flavoured Chicken Non Veg 250.0150.0
+2022-08-04 11:32:43 - 52 WEEKEND OFFER 30%Off WeekOff 1234
+2022-08-04 11:32:43 - 68 Veg Pizza Crunch flavoured vegetables Veg 190.0100.0
+2022-08-04 11:32:43 - 66 Friday Offers 30%Off WeekOff 1234567
+2022-08-04 11:32:43 - 76 Corn pizza Crunch flavoured corns pieces Veg 150.0200.0
+2022-08-04 11:33:34 - PizzaOrder added successfully
+2022-08-04 11:33:34 - PizzaOrder is Created
+2022-08-04 11:33:48 - Fetched The Pizza Details
+2022-08-04 11:33:48 - Fetched the Customer details
+2022-08-04 11:33:48 - Fetched The Coupon
+2022-08-04 11:33:48 - 46 Chicken Pizza Crunch flavoured Chicken Non Veg 250.0150.0
+2022-08-04 11:33:48 - 47 WELCOME 50% offer First User Offer 123
+2022-08-04 11:33:48 - 68 Veg Pizza Crunch flavoured vegetables Veg 190.0100.0
+2022-08-04 11:33:48 - 52 WEEKEND OFFER 30%Off WeekOff 1234
+2022-08-04 11:33:48 - 76 Corn pizza Crunch flavoured corns pieces Veg 150.0200.0
+2022-08-04 11:33:48 - 66 Friday Offers 30%Off WeekOff 1234567
+2022-08-04 11:33:48 - Customer Details are Fetched
+2022-08-04 11:33:48 - 96 Soumya 7732076815 soumya@gmail.comHyderabad
+2022-08-04 11:33:49 - Fetched Order Details
+2022-08-04 11:33:49 - 99 medium 2 2022-08-04 com.cg.pizzaorder.model.Pizza@55d59a35com.cg.pizzaorder.model.Coupon@72ca8616com.cg.pizzaorder.model.Pizza@55d59a35phonepe
+2022-08-04 11:34:04 - Fetched the PizzaOrder by Id
+2022-08-04 11:34:16 - Updated the PizzaOrder by Id
+2022-08-04 11:34:16 - Fetched The Pizza Details
+2022-08-04 11:34:16 - Fetched The Coupon
+2022-08-04 11:34:16 - Fetched the Customer details
+2022-08-04 11:34:16 - 47 WELCOME 50% offer First User Offer 123
+2022-08-04 11:34:16 - 46 Chicken Pizza Crunch flavoured Chicken Non Veg 250.0150.0
+2022-08-04 11:34:16 - 68 Veg Pizza Crunch flavoured vegetables Veg 190.0100.0
+2022-08-04 11:34:16 - 76 Corn pizza Crunch flavoured corns pieces Veg 150.0200.0
+2022-08-04 11:34:16 - 52 WEEKEND OFFER 30%Off WeekOff 1234
+2022-08-04 11:34:16 - 66 Friday Offers 30%Off WeekOff 1234567
+2022-08-04 11:34:16 - Customer Details are Fetched
+2022-08-04 11:34:16 - 96 Soumya 7732076815 soumya@gmail.comHyderabad
+2022-08-04 11:34:18 - Fetched Order Details
+2022-08-04 11:34:18 - 99 medium 8 2022-08-04 com.cg.pizzaorder.model.Pizza@7ab4abf7com.cg.pizzaorder.model.Coupon@49184cbfcom.cg.pizzaorder.model.Pizza@7ab4abf7phonepe
+2022-08-04 11:35:39 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 11:37:44 - Fetched The Coupon
+2022-08-04 11:37:44 - 47 WELCOME 50% offer First User Offer 123
+2022-08-04 11:37:44 - 52 WEEKEND OFFER 30%Off WeekOff 1234
+2022-08-04 11:37:44 - 66 Friday Offers 30%Off WeekOff 1234567
+2022-08-04 11:38:16 - Fetched The Coupon Details Based On Id
+2022-08-04 11:38:29 - Updated The Coupon Details
+2022-08-04 11:38:31 - Fetched The Coupon
+2022-08-04 11:38:31 - 47 WELCOME 50% offer First User Offer 123
+2022-08-04 11:38:31 - 52 WEEKEND OFFER 30%Off WeekOff 1234
+2022-08-04 11:38:31 - 66 Friday Offers 30%Off WeeklyOff 1234567
+2022-08-04 11:38:39 - Coupon Deleted successfully
+2022-08-04 11:38:39 - Deleted The Coupon Details based on Id
+2022-08-04 11:38:40 - Resolved [com.cg.pizzaorder.exception.NoSuchCouponException: Coupon does not exist]
+2022-08-04 11:38:46 - Fetched The Coupon
+2022-08-04 11:38:46 - 47 WELCOME 50% offer First User Offer 123
+2022-08-04 11:38:46 - 52 WEEKEND OFFER 30%Off WeekOff 1234
+2022-08-04 11:43:32 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 11:44:03 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-08-04 13:54:53 - HikariPool-22 - Thread starvation or clock leap detected (housekeeper delta=1h35m53s757ms27µs700ns).
+2022-08-04 14:12:59 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]

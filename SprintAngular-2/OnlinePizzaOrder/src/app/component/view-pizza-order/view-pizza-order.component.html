@@ -1,0 +1,103 @@
+<div class="btn btn-success" *ngIf="this.isButtonVisible" (click)="this.isButtonVisible = false">
+  <button class="btn btn-success" (click)="getOrderHistory()">Get Order History</button>
+
+</div><br><br>
+<table border="1" [hidden]="!Issubmitted" class="table table-striped">
+  <thead>
+    <th>Booking OrderId</th>
+    <th>Ordered Date</th>
+    <th>Trasansaction Mode</th>
+    <th>Quantity </th>
+    <th>Size</th>
+    <th>Customer Id</th>
+    <th>Pizza Id</th>
+    <th>Coupon Id</th>
+    <th colspan="4">Actions </th>
+
+
+  </thead>
+  <tbody>
+    <tr *ngFor="let pizzaOrder of pizzaOrders">
+      <td>{{pizzaOrder.bookingOrderId}}</td>
+      <td>{{pizzaOrder.orderDate}}</td>
+      <td>{{pizzaOrder.transactionMode}}</td>
+      <td>{{pizzaOrder.quantity}}</td>
+      <td>{{pizzaOrder.size}} </td>
+      <td>{{pizzaOrder.customer.customerId}}</td>
+      <td>{{pizzaOrder.coupon.couponId}}</td>
+      <td>{{pizzaOrder.pizza.pizzaId}}</td>
+      <td> <button class="btn btn-warning" (click)="DeleteOrder(pizzaOrder.bookingOrderId)">Cancel Order</button></td>
+      <td> <button class="btn btn-primary" (click)="EditOrder(pizzaOrder.bookingOrderId)"> Edit Order </button></td>
+    </tr>
+  </tbody>
+
+</table>
+<div class="btn btn-info" *ngIf="this.isShow" (click)="this.isShow = true">
+  <button type="button" class="btn btn-info" (click)="back()">Back</button> &nbsp; &nbsp;
+
+</div><br><br>
+
+<app-commonmodel [(visible)]="showDialog1" title="Update Pizza" (onClose)="closePopup()">
+  <form>
+        <div class="form-group">
+
+    Customer Name: <input class="form-control" type="text" name="pcustId" [(ngModel)]="pcustId" placeholder="Name" disabled required>
+  </div><br>
+    <div class="form-group">
+
+      Enter Size: <input class="form-control" type="text" name="pSize" [(ngModel)]="pSize" placeholder="Size" required>
+    </div><br>
+    <div class="form-group">
+
+      Enter TransactionMode: <input class="form-control" type="text" name="pTransactionMode"
+        [(ngModel)]="pTransactionMode" placeholder="TransactionMode"  required>
+
+    </div><br>
+    <div class="form-group">
+      Select Your Pizza:
+
+      <select class="form-control" name="pizzaOrder.pizza.pizzaId"  [(ngModel)]="pizzaOrder.pizza.pizzaId">
+        
+         <option value="" disabled selected>Select your Pizza</option>
+
+
+         <option *ngFor="let a of pizzas" [value]="a.pizzaId">
+       
+           {{a.pizzaName}}
+         </option>
+       </select>
+   </div><br>
+    <div class="form-group">
+     Enter Quantity:
+      <input type="text" class="form-control" name="pQuantity" [(ngModel)]="pQuantity">
+
+    </div><br>
+    <!-- <div class="form-group">
+      Enter Total Cost:
+      <input type="text" class="form-control" name="pTotalCost" [(ngModel)]="pTotalCost">
+
+    </div><br> -->
+    <div class="form-group">
+Select Your Coupon:
+      <select class="form-control" name="pizzaOrder.coupon.couponId" [(ngModel)]="pizzaOrder.coupon.couponId">
+
+        <option value="" disabled selected>Select your Coupon</option>
+
+
+        <option *ngFor="let a of coupons" [value]="a.couponId">
+
+          {{a.couponName}}
+        </option>
+      </select>
+    </div><br>
+
+    <button type="button" (click)="updateOrder(pizzaOrder.bookingOrderId)" class="btn btn-info btn-block btn-round">Update
+      Order</button>
+  </form>
+  <div class="modal-body">
+    <div class="form-outline">
+
+    </div>
+  </div>
+
+</app-commonmodel>
